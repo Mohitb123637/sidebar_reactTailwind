@@ -17,7 +17,7 @@ const App = () => {
       <div
         className={` ${
           open ? 'w-72' : 'w-20 '
-        } bg-dark-purple h-screen p-5  pt-8 relative duration-300 overflow-y-auto`}
+        } bg-dark-purple h-screen p-5  pt-8 relative duration-300 overflow-y-auto overflow-x-hidden`}
       >
         <img
           src="./src/assets/control.png"
